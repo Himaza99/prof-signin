@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+Sign In  </button>
+  
+  <!-- sign in page start -->
+  <div class="modal fade modal-dialog modal-dialog-centered modal-cent" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title  " id="exampleModalLabel">Sign In</h2>
+          <button type="button" class=" btn-close-top" data-bs-dismiss="modal" aria-label="Close"><img src="./img/close button icon.png" class="sign-in-icon-close" alt=""></button>  
+          
+                 
+        </div>
+        <div class="text-center mt-3">
+          <img src="./img/signin logo.png" class="img-fluid " alt="">
+        </div>
+        <div class="modal-body">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><img src="./img/user Icon.png" alt="" class="sign-in-icon"></span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1"><img src="./img/password icon.png" alt="" class="sign-in-icon"></span>
+                <input type="password" class="form-control " id="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+                <a class=" eye-icon" data-bs-toggle="form-control" href="#input-group" role="button" aria-expanded="false" aria-controls="input-group"><img src="./img/hide password icon.png" class="sign-in-icon" alt=""></a>
+              </div>
+              
+              <div class="d-grid gap-2 d-md-flex justify-content-md-end forget-password">
+                <!-- <button class="btn btn-primary me-md-2 " type="button">Forget <b>password?</b></button> -->
+                <a class=" btn-forget-password" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Forget <b>password?</b></a>
+              </div>
+
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  Keep me signed in
+                </label>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sign-in">Sign In</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sign in page end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
