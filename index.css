@@ -51,14 +51,14 @@ body{
   border: none !important;
 }
 
-.input-group-text{
+.input-group-text-icon{
     border: none;
     border-bottom: 3px var(--border-color) solid;
     background-color: white;
     border-radius: 0%;
 }
 
-.form-control{
+.form-control-input{
     border: none;
     border-bottom: 3px var(--border-color) solid;
     border-radius: 0%;
