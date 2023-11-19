@@ -1,0 +1,94 @@
+:root{
+    --title-color:#0659b7;
+    --border-color:#0a61c2;
+    --title-sub:#158ff4;
+}
+
+body{
+    background-color: rgb(154, 240, 240);
+}
+
+.modal-content{
+    border-radius: 35px;
+    width: 80%;
+    padding: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; 
+}
+.modal-header{
+    border-bottom: none;
+    display: flex;
+    padding: 10px;
+}
+
+.modal-title{
+    color: var(--title-sub);
+    flex: 8;
+    margin-left: 20px;
+}
+.btn-close-top{
+    flex: 1;
+    background-color: white;
+
+}
+
+.sign-in-icon-close{
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin-left: 20px;
+}
+
+.btn-close-top,
+.btn-close-top:active,
+.btn-close-top:focus {
+  border: none !important;
+}
+
+.modal-body{
+    padding:  50px 20px 100px 20px !important;
+}
+
+.reset-title{
+    color: var(--title-color);
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.input-group{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    padding: 25px 20px 0px 20px;
+}
+
+.input-group-para{
+    padding: 25px 0 15px 0;
+    text-align: center;
+}
+
+.email-input{
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.email-input-label{
+    width: 100%;
+    height: 40px;
+}
+
+.modal-footer{
+    border: none;
+ }
+
+ .reset-password{
+    padding: 0%;
+    margin-top: 0%;
+    padding: 0px 15px 0px 15px;
+
+}
+
+.btn-sign-in{
+    width: 100%;
+    text-transform: capitalize;
+    margin-top: 10px !important;
+
+}
